@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body {
+    font-family:'syne mono', sans-serif;
+}
+
+.quotes i {
+    text-align:center;
+}
+
+.container-callout {
+    height:100vh;
+    background: url("../images/daan-evers-tKN1WXrzQ3s-unsplash.jpg") no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.container-callout section {
+    color:white;
+    font-style:bold;
+    background-color:rgb(223, 146, 75, 0.5);
+    padding:10px;
+
+}
+
+.quotes-container {
+    background-color:rgb(223, 146, 75, 0.5);
+}
+
+.quotes {
+    text-align:center;
+}
+
+.jumbotron small {
+    font-style:italic;
+    font-size:100%;
+
+}
+
+.navbar-container .navbar {
+    background-color:rgb(223, 146, 75, 0.5);
+}
